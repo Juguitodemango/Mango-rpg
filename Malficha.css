@@ -78,8 +78,9 @@
 
 .Mal-curi {
     font-family: "Demonstars", sans-serif;
-    font-size: 25px; 
+    font-size: 20px; 
     color: #fff;
+    padding: 12px;
     text-shadow: 0 0 10px var(--groups), 0 0 20px var(--groups);
     animation: Mal-flicker 3s infinite alternate;
 }
