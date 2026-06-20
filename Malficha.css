@@ -76,6 +76,14 @@
     text-align: justify;
 }
 
+.Mal-curi {
+    font-family: "Demonstars", sans-serif;
+    font-size: 25px; 
+    color: #fff;
+    text-shadow: 0 0 10px var(--groups), 0 0 20px var(--groups);
+    animation: Mal-flicker 3s infinite alternate;
+}
+
 @keyframes Mal-flicker {
     0%, 100% { opacity: 1; text-shadow: 0 0 10px var(--groups), 0 0 25px var(--groups); }
     50% { opacity: 0.5; text-shadow: 0 0 2px var(--groups), 0 0 5px var(--groups); }
