@@ -18,7 +18,7 @@
 
 .ficha-nombre {
     font-family: "Rebella", cursive !important;
-    font-size: 80px;
+    font-size: 100px;
     margin-top: -10px;
     color: var(--groups) !important;
     text-shadow: 0 0 8px var(--groups); 
@@ -47,7 +47,7 @@
 
 .Mal-title {
     font-family: "Rebella", cursive !important;
-    font-size: 55px; 
+    font-size: 75px; 
     color: var(--groups) !important; 
     text-shadow: 0 0 8px var(--groups), 0 0 15px var(--groups);
     text-transform: none !important; 
@@ -57,7 +57,7 @@
 
 .Mal-line {
     width: 1px;
-    height: 60px;
+    height: 70px;
     background: linear-gradient(to bottom, transparent, var(--groups), transparent);
     margin: 15px auto;
     box-shadow: 0 0 8px var(--groups);
@@ -67,7 +67,7 @@
     color: #fff;
     text-shadow: 0 0 10px var(--groups), 0 0 20px var(--groups);
     animation: Mal-float 3s infinite ease-in-out;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .Mal-cols {
