@@ -46,7 +46,7 @@
 
 .Mal-title {
     font-family: "Rebella", cursive !important;
-    font-size: 65px; 
+    font-size: 75px; 
     letter-spacing: -2px;
     color: var(--groups) !important; 
     text-shadow: 0 0 8px var(--groups), 0 0 15px var(--groups);
@@ -137,12 +137,12 @@
 }
 
 .Mal-inicial {
-    font-size: 35px;
+    font-size: 75px;
     color: var(--groups);
     float: left;
     line-height: 0.8;
     margin-right: 8px;
-    margin-top: 4px;
+    margin-top: 15px;
     display: inline-block;
 }
 
