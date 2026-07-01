@@ -35,7 +35,7 @@
 
 .Mal-title {
     font-family: "Rebella", cursive !important;
-    font-size: 75px; 
+    font-size: 70px; 
     color: var(--groups) !important; 
     text-shadow: 0 0 8px var(--groups), 0 0 15px var(--groups);
     text-transform: none !important; 
@@ -111,7 +111,7 @@
 }
 
 .Mal-post-content {
-    padding: 0 35px;
+    padding: 0 25px;
     position: relative;
     z-index: 2;
 }
