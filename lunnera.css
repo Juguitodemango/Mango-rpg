@@ -35,7 +35,7 @@
 
 .Mal-title {
     font-family: "Rebella", cursive !important;
-    font-size: 55px; 
+    font-size: 50px; 
     color: var(--groups) !important; 
     text-shadow: 0 0 8px var(--groups), 0 0 15px var(--groups);
     text-transform: none !important; 
