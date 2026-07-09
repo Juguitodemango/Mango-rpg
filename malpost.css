@@ -164,27 +164,34 @@
     text-align: left;
 }
 
-.Mal-footer-organizado {
+.Mal-footer-compacto {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    text-align: center;  
-    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
     padding-top: 10px;
-    border-top: 1px solid var(--groups);
-    font-size: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    opacity: 0.6; 
+    font-size: 10px; 
     text-transform: uppercase;
+    letter-spacing: 2px;
     color: var(--groups);
-    font-family: sans-serif;
 }
 
-.Mal-footer-organizado .info-linea {
+
+.Mal-footer-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.Mal-footer-usuario {
+    font-family: "Demonstars", sans-serif;
+    font-size: 14px;
+    margin-top: 4px;
     letter-spacing: 1px;
-}
-
-.Mal-footer-organizado .usuario-linea {
-    font-weight: bold;
-    margin-top: 5px;
 }
 
 @keyframes resplandorFantasma {
